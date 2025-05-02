@@ -1,0 +1,11 @@
+# Ignore compiled GPU kernels and binaries
+src/*.so
+src/*.cubin
+src/*.ptx
+
+# Ignore Python cache
+**/__pycache__/
+*.pyc
+
+# (Optional) ignore large result files
+# results/
